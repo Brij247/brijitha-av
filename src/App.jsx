@@ -92,7 +92,8 @@ function App() {
             </button>
           </div>
         </div>
-        <img src={"./src/briji.png"} />
+        <img src={"./briji.png"} />
+        {/* <img src={"./src/briji.png"} /> */}
       </div>
     </>
   );
