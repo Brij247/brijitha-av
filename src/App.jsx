@@ -50,7 +50,7 @@ function App() {
               textAlign: "left",
             }}
           >
-            I'm{" "}
+            {`I'm`}{" "}
             <span
               style={{
                 fontWeight: "bold",
@@ -60,7 +60,8 @@ function App() {
             </span>
             , your friendly neighborhood front-end enthusiast with a passion for
             crafting captivating digital experiences. I enjoy building web
-            applications, creating videos and gardening. Currently, I'm building{" "}
+            applications, creating videos and gardening. Currently, {`I'm`}{" "}
+            building{" "}
             <span
               style={{
                 fontWeight: "bold",
