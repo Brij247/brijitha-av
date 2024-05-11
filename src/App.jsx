@@ -68,7 +68,7 @@ function App() {
               }}
             >
               {" "}
-              Biblio-traker
+              Biblio-tracker
             </span>
             , an open-source plateform built with{" "}
             <span
