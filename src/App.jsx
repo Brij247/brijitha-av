@@ -1,6 +1,7 @@
 import "./App.css";
 
 import {
+  DownloadIcon,
   EnvelopeOpenIcon,
   GitHubLogoIcon,
   LinkedInLogoIcon,
@@ -39,6 +40,9 @@ function App() {
           <div className="flex items-center gap-2">
             <button className="rounded-md bg-gray-100 hover:bg-gray-50 p-2 flex items-center gap-2">
               <div>Hire me</div> <RocketIcon />
+            </button>
+            <button className="rounded-md bg-gray-100 hover:bg-gray-50 p-2 flex items-center gap-2">
+              <div>Get resume</div> <DownloadIcon />
             </button>
           </div>
           <div className="flex gap-3">
