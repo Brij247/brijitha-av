@@ -53,9 +53,12 @@ function App() {
             <button className="rounded-md bg-gray-100 hover:bg-gray-50 p-2">
               <LinkedInLogoIcon />
             </button>
-            <button className="rounded-md bg-gray-100 hover:bg-gray-50 p-2">
+            <a
+              href="mailto:brijithaav@gmail.com"
+              className="rounded-md bg-gray-100 hover:bg-gray-50 p-2"
+            >
               <EnvelopeOpenIcon />
-            </button>
+            </a>
           </div>
         </div>
         <img src={"./briji.png"} />
