@@ -50,9 +50,13 @@ function App() {
             </button>
           </div>
           <div className="flex gap-3">
-            <button className="rounded-md bg-gray-100 hover:bg-gray-50 p-2">
+            <a
+              href="https://www.linkedin.com/in/brijithaav/"
+              target="_blank"
+              className="rounded-md bg-gray-100 hover:bg-gray-50 p-2"
+            >
               <LinkedInLogoIcon />
-            </button>
+            </a>
             <a
               href="mailto:brijithaav@gmail.com"
               className="rounded-md bg-gray-100 hover:bg-gray-50 p-2"
