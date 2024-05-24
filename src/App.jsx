@@ -13,9 +13,13 @@ function App() {
   return (
     <>
       <div className="flex items-center justify-end gap-2">
-        <button className="rounded-md bg-gray-100 hover:bg-gray-50 p-2">
+        <a
+          className="rounded-md bg-gray-100 hover:bg-gray-50 p-2"
+          href="https://github.com/Brij247"
+          target="_blank"
+        >
           <GitHubLogoIcon />
-        </button>
+        </a>
         <button className="rounded-md bg-gray-100 hover:bg-gray-50 p-2">
           <SunIcon />
         </button>
@@ -46,12 +50,19 @@ function App() {
             </button>
           </div>
           <div className="flex gap-3">
-            <button className="rounded-md bg-gray-100 hover:bg-gray-50 p-2">
+            <a
+              href="https://www.linkedin.com/in/brijithaav/"
+              target="_blank"
+              className="rounded-md bg-gray-100 hover:bg-gray-50 p-2"
+            >
               <LinkedInLogoIcon />
-            </button>
-            <button className="rounded-md bg-gray-100 hover:bg-gray-50 p-2">
+            </a>
+            <a
+              href="mailto:brijithaav@gmail.com"
+              className="rounded-md bg-gray-100 hover:bg-gray-50 p-2"
+            >
               <EnvelopeOpenIcon />
-            </button>
+            </a>
           </div>
         </div>
         <img src={"./briji.png"} />
