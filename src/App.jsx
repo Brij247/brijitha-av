@@ -14,6 +14,19 @@ function App() {
     <>
       <div className="flex items-center justify-end gap-2">
         <a
+          href="https://www.linkedin.com/in/brijithaav/"
+          target="_blank"
+          className="rounded-md bg-gray-100 hover:bg-gray-50 p-2"
+        >
+          <LinkedInLogoIcon />
+        </a>
+        <a
+          href="mailto:brijithaav@gmail.com"
+          className="rounded-md bg-gray-100 hover:bg-gray-50 p-2"
+        >
+          <EnvelopeOpenIcon />
+        </a>
+        <a
           className="rounded-md bg-gray-100 hover:bg-gray-50 p-2"
           href="https://github.com/Brij247"
           target="_blank"
@@ -41,7 +54,7 @@ function App() {
             plateform built with <span className="font-medium">Next.js </span>
             features!💻✨
           </p>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 justify-center">
             <button className="rounded-md bg-gray-100 hover:bg-gray-50 p-2 flex items-center gap-2">
               <div>Hire me</div> <RocketIcon />
             </button>
@@ -49,23 +62,7 @@ function App() {
               <div>Get resume</div> <DownloadIcon />
             </button>
           </div>
-          <div className="flex gap-3">
-            <a
-              href="https://www.linkedin.com/in/brijithaav/"
-              target="_blank"
-              className="rounded-md bg-gray-100 hover:bg-gray-50 p-2"
-            >
-              <LinkedInLogoIcon />
-            </a>
-            <a
-              href="mailto:brijithaav@gmail.com"
-              className="rounded-md bg-gray-100 hover:bg-gray-50 p-2"
-            >
-              <EnvelopeOpenIcon />
-            </a>
-          </div>
         </div>
-        <img src={"./briji.png"} />
       </div>
     </>
   );
