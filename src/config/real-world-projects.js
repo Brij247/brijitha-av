@@ -1,4 +1,4 @@
-export const projectData = [
+export const realWorldProjects = [
   {
     title: "AUTH-HUB",
     description:

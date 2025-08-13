@@ -1,4 +1,4 @@
-export const projectData = [
+export const personalProjects = [
   {
     title: "Sleep with Pees",
     description:
