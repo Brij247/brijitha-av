@@ -9,7 +9,7 @@ export const Projects = () => {
         {personalProjects.map((project, index) => (
           <div
             key={index}
-            className="p-6 border-2 border-gray-700 rounded-xl w-full flex flex-col gap-6 bg-gray-50"
+            className="p-6 border-2 border-gray-700 rounded-xl w-full flex flex-col gap-6 bg-gray-50 dark:bg-gray-800 dark:text-white"
           >
             <div
               className="flex justify-center cursor-pointer"
@@ -52,7 +52,9 @@ export const Projects = () => {
                   </a>
                 </div>
               </div>
-              <div className="text-gray-700">{project.description}</div>
+              <div className="text-gray-700 dark:text-gray-300">
+                {project.description}
+              </div>
 
               <div>
                 <span className="font-semibold">Features: </span>
